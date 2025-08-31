@@ -48,3 +48,60 @@ Example: Creating a use-case diagram that shows how different actors (customers,
 Validation ensures that the documented requirements truly reflect stakeholder needs and align with business goals. This step involves reviews, walkthroughs, and stakeholder sign-off to confirm accuracy, clarity, and testability of requirements.
 
 Example: Reviewing the requirement list with hotel management to confirm that the system supports seasonal pricing and discount codes before development begins.
+
+# Types of Requirements.
+1. Requirement Gathering
+
+* **Functional Requirements (FR):**
+
+  * The system must allow users to search for available rooms by date, type, and price.
+  * Users must be able to create and cancel bookings.
+* **Non-Functional Requirements (NFR):**
+
+  * Search results must load within 2 seconds for up to 100 concurrent users.
+  * The system must support mobile and desktop access (responsive design).
+
+### 2. Requirement Elicitation
+
+* **FR:**
+
+  * The system should send booking confirmation emails to users.
+  * Admins should be able to update room availability in real-time.
+* **NFR:**
+
+  * Email notifications must be delivered within 1 minute of booking.
+  * The system must handle at least 50 booking updates per minute without downtime.
+
+### 3. Requirement Documentation
+
+* **FR:**
+
+  * The system must allow admins to add, edit, or remove room listings.
+  * Users should be able to view booking history.
+* **NFR:**
+
+  * Admin dashboard must load within 3 seconds.
+  * All user data must be securely stored according to encryption standards.
+
+### 4. Requirement Analysis and Modeling
+
+* **FR:**
+
+  * The system must integrate a payment gateway for credit card and PayPal payments.
+  * Users should be able to apply discount codes during booking.
+* **NFR:**
+
+  * Payment transactions must be completed within 5 seconds.
+  * Payment processing must comply with PCI DSS security standards.
+
+### 5. Requirement Validation
+
+* **FR:**
+
+  * Users must be able to cancel bookings up to 24 hours before check-in.
+  * The system must generate monthly booking reports for admins.
+* **NFR:**
+
+  * System uptime must be 99.9% to support international users.
+  * The interface must be intuitive and easy to use, with a usability rating of at least 85% in user testing.
+

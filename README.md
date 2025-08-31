@@ -50,7 +50,7 @@ Validation ensures that the documented requirements truly reflect stakeholder ne
 Example: Reviewing the requirement list with hotel management to confirm that the system supports seasonal pricing and discount codes before development begins.
 
 # Types of Requirements.
-1. Requirement Gathering
+### 1. Requirement Gathering
 
 - **Functional Requirements (FRs):**
 
@@ -64,7 +64,7 @@ Example: Reviewing the requirement list with hotel management to confirm that th
 
     - Scalability: The system should be able to handle a large number of simultaneous search queries, especially during peak times.
 
-2. Requirement Elicitation
+### 2. Requirement Elicitation
 
 - **Functional Requirements (FRs):**
 
@@ -78,7 +78,7 @@ Example: Reviewing the requirement list with hotel management to confirm that th
 
     - Availability: The booking system should be available 24/7, with minimal downtime for maintenance.
 
-3. Requirement Documentation
+### 3. Requirement Documentation
 
 - **Functional Requirements (FRs):**
 
@@ -92,7 +92,7 @@ Example: Reviewing the requirement list with hotel management to confirm that th
 
     - Maintainability: The system should be modular, allowing for easy updates and maintenance.
 
-4. Requirement Analysis and Modeling
+### 4. Requirement Analysis and Modeling
 
 - **Functional Requirements (FRs):**
 
@@ -106,7 +106,7 @@ Example: Reviewing the requirement list with hotel management to confirm that th
 
     - Performance: Updates to room availability and pricing should be reflected in the system within 1 second.
 
-5. Requirement Validation
+### 5. Requirement Validation
 
 - **Functional Requirements (FRs):**
 

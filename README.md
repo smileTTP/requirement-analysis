@@ -52,56 +52,70 @@ Example: Reviewing the requirement list with hotel management to confirm that th
 # Types of Requirements.
 1. Requirement Gathering
 
-* **Functional Requirements (FR):**
+Functional Requirements (FRs):
 
-  * The system must allow users to search for available rooms by date, type, and price.
-  * Users must be able to create and cancel bookings.
-* **Non-Functional Requirements (NFR):**
+Hotel Search: Users must be able to search for hotels based on various criteria such as location, check-in/check-out dates, price range, and amenities.
 
-  * Search results must load within 2 seconds for up to 100 concurrent users.
-  * The system must support mobile and desktop access (responsive design).
+Room Availability: The system should display real-time room availability to prevent double bookings.
+
+Non-Functional Requirements (NFRs):
+
+Performance: Search results should be returned within 2 seconds to ensure a responsive user experience.
+
+Scalability: The system should be able to handle a large number of simultaneous search queries, especially during peak times.
 
 2. Requirement Elicitation
 
-* **FR:**
+Functional Requirements (FRs):
 
-  * The system should send booking confirmation emails to users.
-  * Admins should be able to update room availability in real-time.
-* **NFR:**
+Booking Process: Users should be able to select a room, enter guest information, and complete the booking process online.
 
-  * Email notifications must be delivered within 1 minute of booking.
-  * The system must handle at least 50 booking updates per minute without downtime.
+Payment Integration: The system must support multiple payment methods, including credit/debit cards and online wallets.
+
+Non-Functional Requirements (NFRs):
+
+Security: All payment transactions must be encrypted and comply with industry security standards to protect user data.
+
+Availability: The booking system should be available 24/7, with minimal downtime for maintenance.
 
 3. Requirement Documentation
 
-* **FR:**
+Functional Requirements (FRs):
 
-  * The system must allow admins to add, edit, or remove room listings.
-  * Users should be able to view booking history.
-* **NFR:**
+User Profiles: The system should allow users to create and manage their profiles, including personal information and booking history.
 
-  * Admin dashboard must load within 3 seconds.
-  * All user data must be securely stored according to encryption standards.
+Admin Dashboard: Administrators should have access to a dashboard to manage hotel listings, view bookings, and generate reports.
+
+Non-Functional Requirements (NFRs):
+
+Usability: The user interface should be intuitive and easy to navigate for both guests and administrators.
+
+Maintainability: The system should be modular, allowing for easy updates and maintenance.
 
 4. Requirement Analysis and Modeling
 
-* **FR:**
+Functional Requirements (FRs):
 
-  * The system must integrate a payment gateway for credit card and PayPal payments.
-  * Users should be able to apply discount codes during booking.
-* **NFR:**
+Room Management: The system should allow hotel staff to update room availability, pricing, and amenities in real-time.
 
-  * Payment transactions must be completed within 5 seconds.
-  * Payment processing must comply with PCI DSS security standards.
+Booking Modifications: Users should be able to modify or cancel their bookings within specified policies.
+
+Non-Functional Requirements (NFRs):
+
+Reliability: The system should ensure data consistency and integrity, especially during concurrent updates.
+
+Performance: Updates to room availability and pricing should be reflected in the system within 1 second.
 
 5. Requirement Validation
 
-* **FR:**
+Functional Requirements (FRs):
 
-  * Users must be able to cancel bookings up to 24 hours before check-in.
-  * The system must generate monthly booking reports for admins.
-* **NFR:**
+Confirmation Notifications: The system should send booking confirmations via email or SMS, including reservation details and booking reference.
 
-  * System uptime must be 99.9% to support international users.
-  * The interface must be intuitive and easy to use, with a usability rating of at least 85% in user testing.
+Cancellation Policy: Users should be notified of the hotel's cancellation policy before confirming a booking.
 
+Non-Functional Requirements (NFRs):
+
+Compliance: The system should adhere to legal and regulatory requirements, including data protection laws and consumer rights.
+
+Performance: Notification delivery should occur within 1 minute of booking confirmation.

@@ -119,3 +119,8 @@ Example: Reviewing the requirement list with hotel management to confirm that th
     - Compliance: The system should adhere to legal and regulatory requirements, including data protection laws and consumer rights.
 
     - Performance: Notification delivery should occur within 1 minute of booking confirmation.
+
+# Use Case Diagrams.
+Use-case diagrams describe the high-level functions and scope of a system. These diagrams also identify the interactions between the system and its actors. The use cases and actors in use-case diagrams describe what the system does and how the actors use it, but not how the system operates internally. They are an indispensable tool for planning, developing, and documenting software systems and help to put the needs of end users at the center of the development process.
+
+![alt text](alx-booking-uc.png)

@@ -61,7 +61,7 @@ Example: Reviewing the requirement list with hotel management to confirm that th
   * Search results must load within 2 seconds for up to 100 concurrent users.
   * The system must support mobile and desktop access (responsive design).
 
-### 2. Requirement Elicitation
+2. Requirement Elicitation
 
 * **FR:**
 
@@ -72,7 +72,7 @@ Example: Reviewing the requirement list with hotel management to confirm that th
   * Email notifications must be delivered within 1 minute of booking.
   * The system must handle at least 50 booking updates per minute without downtime.
 
-### 3. Requirement Documentation
+3. Requirement Documentation
 
 * **FR:**
 
@@ -83,7 +83,7 @@ Example: Reviewing the requirement list with hotel management to confirm that th
   * Admin dashboard must load within 3 seconds.
   * All user data must be securely stored according to encryption standards.
 
-### 4. Requirement Analysis and Modeling
+4. Requirement Analysis and Modeling
 
 * **FR:**
 
@@ -94,7 +94,7 @@ Example: Reviewing the requirement list with hotel management to confirm that th
   * Payment transactions must be completed within 5 seconds.
   * Payment processing must comply with PCI DSS security standards.
 
-### 5. Requirement Validation
+5. Requirement Validation
 
 * **FR:**
 

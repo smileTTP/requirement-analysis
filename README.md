@@ -120,7 +120,36 @@ Example: Reviewing the requirement list with hotel management to confirm that th
 
     - Performance: Notification delivery should occur within 1 minute of booking confirmation.
 
-# Use Case Diagrams.
+# Use Case Diagrams
 Use-case diagrams describe the high-level functions and scope of a system. These diagrams also identify the interactions between the system and its actors. The use cases and actors in use-case diagrams describe what the system does and how the actors use it, but not how the system operates internally. They are an indispensable tool for planning, developing, and documenting software systems and help to put the needs of end users at the center of the development process.
 
 ![alt text](alx-booking-uc.png)
+
+# Acceptance Criteria
+### Importance of Acceptance Criteria in Requirement Analysis
+
+Acceptance Criteria (AC) are a vital part of requirement analysis because they clearly define what needs to be delivered for a feature to be considered complete and successful. They set measurable conditions that must be met to ensure the system works as intended and meets business goals.
+
+Some key reasons why acceptance criteria are important:
+
+* **Clarity & Alignment**: They provide a shared understanding between stakeholders, developers, and testers, reducing ambiguity in requirements.
+* **Testability**: Acceptance criteria act as a basis for writing test cases, making it easier to validate the feature.
+* **Scope Management**: They prevent scope creep by outlining exactly what is in and out of the feature.
+* **Quality Assurance**: By defining conditions of success, AC helps ensure features are built correctly and deliver the intended value.
+* **User-Centric Focus**: They keep the feature aligned with user expectations and business objectives.
+
+### Example: Acceptance Criteria for Checkout Feature in a Booking Management System
+
+**Feature**: Checkout
+
+**Acceptance Criteria:**
+
+1. The system must display a summary of the selected booking details (hotel name, room type, check-in/check-out dates, price).
+2. Users must be able to enter and validate payment details securely.
+3. The system must support at least two payment options (e.g., credit/debit card and PayPal).
+4. If payment is successful, the system must generate a booking confirmation number and send it via email.
+5. If payment fails, the user must see an error message with the option to retry or use another payment method.
+6. The checkout process must be completed within 3 minutes under normal network conditions.
+7. The system must comply with PCI-DSS standards for handling payment information.
+
+
